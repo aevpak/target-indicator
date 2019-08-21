@@ -1,0 +1,59 @@
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet">
+	<script src = "js/script1.js">
+	</script>
+</head>
+<body  onload = "f()">
+	<div id = "target_indicator" class = "main">
+		<div class = "target_indicator_title">
+			<div class = "target_indicator_title_text">
+				Target Indicator Demo
+			</div>
+		</div>
+		<div class = "target_indicator_body">
+			<div class = "target_indicator_body_content">
+				<div class = "target_indicator_body_content_upline">
+					<div class = "target_indicator_body_content_upline_text">
+						<b>Reached:  </b>
+					</div>	
+					<div class = "target_indicator_body_content_upline_progress" id = "frame">
+						<div id = "border" class = "target_indicator_body_content_upline_progress_value_border">
+							<div id = "colored_border" class = "target_indicator_body_content_upline_progress_value">
+							</div>
+						</div>
+						<div class = "target_indicator_body_content_upline_value" id = "pointer">
+							<div>
+								<img id = "pointer_img" src = "src/pointer.jpg"  >
+							</div>
+							<div id = "pointer_text">
+								$14
+							</div>
+						</div>	
+						
+						
+					</div>
+					<div class = "target_indicator_body_content_upline_target">
+						<div  class = "target_indicator_body_content_upline_target_text">
+							Target
+						</div>
+						<div id = "target_text" class = "target_indicator_body_content_upline_target_text">
+							$15
+						</div>
+					</div>
+					
+				</div>
+				<div class = "target_indicator_body_content_downline">
+					<div class = "target_indicator_body_content_downline_img">
+						<img id = "information_img" src = "src/information.jpg">
+					</div>
+					<div id = "downline_text" class = "target_indicator_body_content_downline_text">
+						You need 1$ more to reach your target.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
